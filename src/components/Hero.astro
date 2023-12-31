@@ -1,0 +1,33 @@
+---
+import "@fontsource/montserrat";
+import Video from "./Video.astro";
+---
+
+<section
+  class="h-screen w-full
+  flex flex-col items-center justify-center
+  bg-blend-luminosity bg-center bg-cover bg-no-repeat">
+  <section
+    class="left-0 absolute bg-black h-screen w-1/2 z-10 md:flex items-end p-20 hidden">
+    <p
+      class="text-white/60 text-balance animate-once animate-ease-linear animate-fade-right delay-1000">
+      Somos una consultora IT especializada en brindar soluciones tecnológicas a
+      empresas de todos los tamaños. Nuestro equipo de profesionales altamente
+      capacitados te ayudará a mejorar tu performance y eficiencia.
+    </p>
+  </section>
+  <Video />
+  <div class="flex flex-col p-7">
+    <h1
+      class="text-white p-7 font-extrabold text-6xl md:text-7xl lg:text-9xl z-10 self-center flex flex-col capitalize text-center animate-fade-down animate-once animate-delay-[350ms] animate-ease-out">
+      <span class="md:text-start">your</span>
+      <span class="uppercase">developer</span>
+      <span class="md:text-end">team</span>
+    </h1>
+  </div>
+  <div class="absolute bottom-14 w-1 h-24 bg-white z-10"></div>
+  <p
+    class="absolute bottom-6 text-sm font-semibold font-montserrat text-white z-10 animate-bounce animate-infinite animate-ease-out">
+    Scroll for more
+  </p>
+</section>

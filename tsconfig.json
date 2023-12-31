@@ -1,3 +1,14 @@
 {
+  "compilerOptions": {
+    "baseUrl": "/home/moskki/webapps/nucof-redesign",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@/components": [
+        "src/components/*"
+      ]
+    },
+  },
   "extends": "astro/tsconfigs/strict"
 }
